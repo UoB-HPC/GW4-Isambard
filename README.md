@@ -3,5 +3,5 @@ This documentation describes how to use the [GW4 Isambard Tier-2 HPC system](htt
 * [Request an account](RequestAccount.md)
 * [Getting started](GettingStarted.md)
 * Filesystem
-* Queue configuration
+* [Running jobs](RunningJobs.md)
 * ...
