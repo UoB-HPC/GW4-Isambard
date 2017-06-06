@@ -2,7 +2,7 @@ Account requests for Isambard are managed via the [SAFE for EPSERC Tier2 system]
 
 # Create an account on SAFE
 
-(If you already have an accout on SAFE, you can skip this step.)
+(If you already have an account on SAFE, you can skip this step.)
 
 Navigate to the [Tier-2 SAFE login page](https://www.archer.ac.uk/tier2/).
 At the bottom of the login screen, choose to create a new account:
@@ -13,13 +13,13 @@ Fill in the form with your details and click `Register`.
 
 # Register institutional ID
 
-(If you have already registered your instituional ID to your SAFE account, you can skip this step.)
+(If you have already registered your institutional ID to your SAFE account, you can skip this step.)
 
 Once logged in with your SAFE account, click `Register institutional ID` underneath `Your details`:
 
 ![](https://raw.githubusercontent.com/UoB-HPC/GW4-Isambard/master/docs/images/safe-register-id.png)
 
-After entering your instituional login details (if necsssary), you should see a message stating `Identity registered`.
+After entering your institutional login details (if necessary), you should see a message stating `Identity registered`.
 
 Now logout of your SAFE account:
 
