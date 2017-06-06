@@ -1,5 +1,7 @@
 Account requests for Isambard are managed via the [SAFE for EPSERC Tier2 system](https://www.archer.ac.uk/tier2/).
 
+NOTE: Isambard Phase 1 is currently available to early-access users only. Please do not request an account unless you have been specifically invited to do so.
+
 # Create an account on SAFE
 
 (If you already have an account on SAFE, you can skip this step.)
