@@ -1,5 +1,7 @@
 Isambard Phase 1 uses [PBS Professional](http://www.pbsworks.com/PBSProduct.aspx?n=PBS-Professional&c=Overview-and-Capabilities) to manage compute resources.
 
+[PBS Pro 13.1 User Guide](http://www.pbsworks.com/pdfs/PBSProUserGuide13.1.pdf)
+
 # Queue configuration
 
 TODO: Write this once queue configuration has been finalized
