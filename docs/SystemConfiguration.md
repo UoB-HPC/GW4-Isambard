@@ -1,6 +1,12 @@
 # Introduction
 
-
+The GW4 Alliance, together with Cray Inc. and the Met Office, has been
+awarded £3m by EPSRC to deliver a new Tier 2 high performance computing
+(HPC) service for UK-based scientists. This unique new service, named
+"Isambard" after the renowned Victorian engineer Isambard Kingdom
+Brunel, will provide multiple advanced architectures within the same
+system in order to enable evaluation and comparison across a diverse
+range of hardware platforms. - <http://gw4.ac.uk/isambard/>
 **Technical Details**
 
 Phase one was installed in March 2017 and was supplied with a number of
