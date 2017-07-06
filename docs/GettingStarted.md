@@ -3,11 +3,23 @@
 Log into Isambard using SSH:
 
 <pre>
-ssh isambard.gw4.ac.uk -l <i>USERNAME</i>
+ssh XX-USERNAME@isambard.gw4.ac.uk
 </pre>
 
-TODO: Update this once we've finalized how to get to the system from the outside world.
+You need to place the following into ~/.ssh/config in order to traverse the bastion hosts transparently:
 
-# Copying files to Isambard
+<pre>
+Host isambard.gw4.ac.uk
+  User XX-USERNAME
 
-TODO: Add `scp` instructions once we've finalized how to get to the system from the outside world
+Host login-01.isambard.gw4.ac.uk
+  Hostname login-01
+  User XX-USERNAME
+  ProxyCommand ssh isambard.gw4.ac.uk 'nc %h %p'
+
+Host login-02.isambard.gw4.ac.uk
+  Hostname login-02
+  User XX-USERNAME
+  ProxyCommand ssh isambard.gw4.ac.uk 'nc %h %p'
+</pre>
+
