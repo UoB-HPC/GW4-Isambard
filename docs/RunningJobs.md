@@ -2,6 +2,10 @@ Isambard Phase 1 uses [PBS Professional](http://www.pbsworks.com/PBSProduct.aspx
 
 [PBS Pro 13.1 User Guide](http://www.pbsworks.com/pdfs/PBSProUserGuide13.1.pdf)
 
+# Limits
+
+Job submission is limited to two jobs per user per queue
+
 # Queue configuration
 
 knlq    - To run on the eight single-socket Intel Xeon Phi "Knights Landing" 7210 CPU nodes
