@@ -8,9 +8,9 @@ Job submission is limited to two jobs per user per queue
 
 # Queue configuration
 
-knlq    - To run on the eight single-socket Intel Xeon Phi "Knights Landing" 7210 CPU nodes
-pascalq - To run on the four dual-card Nvidia Tesla P100 "Pascal" GPU nodes
-all     - To run on any node type, not recommended for use
+* knlq    - To run on the eight single-socket Intel Xeon Phi "Knights Landing" 7210 CPU nodes
+* pascalq - To run on the four dual-card Nvidia Tesla P100 "Pascal" GPU nodes
+* all     - To run on any node type, not recommended for use
 
 To see the available queues and their current state:
 
