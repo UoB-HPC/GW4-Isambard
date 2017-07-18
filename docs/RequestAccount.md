@@ -56,5 +56,9 @@ On the next screen, select `Isambard` and click `Select Machine`:
 
 ![](https://raw.githubusercontent.com/UoB-HPC/GW4-Isambard/master/docs/images/safe-isambard-request.png)
 
+The next screen will invite you to request a username before clicking `Request` to submit your application.
+Please note that usernames on Isambard follow a fixed format and we are unable to accomodate specific username requests.
+
 Your account request will need to approved by the PI for your hosting institution.
 You will receive your login details via email once your account has been approved and created.
+This process may take 1-2 working weeks, depending on availability of the project PI to approve your account.
