@@ -12,6 +12,8 @@ Job submission is limited to two jobs per user per queue
 * pascalq - To run on the four dual-card Nvidia Tesla P100 "Pascal" GPU nodes
 * all     - To run on any node type, not recommended for use
 
+KNLq is split into two sets of MCDRAM configuration, nodes 001-004 are in cache memory mode (quad_0) and nodes 005-008 are in flat memory mode (quad_100). These modes can be targeted using the `aoe=` PBS attribute.
+
 To see the available queues and their current state:
 
     qstat -q
