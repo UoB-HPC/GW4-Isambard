@@ -41,7 +41,7 @@ Scroll down to the `SSH Public Key` section, and enter a public SSH key:
 
 ![](https://raw.githubusercontent.com/UoB-HPC/GW4-Isambard/master/docs/images/safe-ssh-key.png)
 
-On Linux/macOS systems, you public SSH key will typically be found under `.ssh/id_rsa.pub` in your home directory.
+On Linux/macOS systems, your public SSH key will typically be found under `.ssh/id_rsa.pub` in your home directory.
 If you do not have one yet, you can create one by running `ssh-keygen -t rsa` from a terminal.
 
 # Request account on Isambard
