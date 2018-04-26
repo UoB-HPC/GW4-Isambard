@@ -1,4 +1,4 @@
-Isambard Phase 1 uses the [PBS Professional](https://pbsworks.com/pdfs/PBSUserGuide13.0.pdf) schedular to manage compute resources.
+Isambard Phase 1 uses the PBS Pro schedular to manage compute resources.
 
 [PBS Pro 13.1 User Guide](http://www.pbsworks.com/pdfs/PBSProUserGuide13.1.pdf)
 
