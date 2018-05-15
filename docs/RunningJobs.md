@@ -48,3 +48,12 @@ For example, this command declares that your job will run on a single node and w
     qsub -I -q pascalq -l nodes=1:ngpus=1
 
 If you request `ngpus=2`, then any subsequently submitted job requesting a GPU will not run on the same node until a node is freed. Similarly setting `ncpus=36` will block any jobs requiring a CPU from running; Remember, 18 of the 36 cores are Hyperthreads.
+
+# Load CUDA Toolkit on Pascal nodes
+To load the default version of CUDA run:
+
+    module load cudatoolkit
+
+Specific versions can be found with:
+
+    module avail cudatoolkit
