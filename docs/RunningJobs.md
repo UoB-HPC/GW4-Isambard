@@ -24,7 +24,7 @@ To see the available queues and their current state:
 <pre>
 #!/bin/bash
 #PBS -q pascalq
-#PBS -l nodes=1
+#PBS -l select=1
 #PBS -l walltime=00:10:00
 
 cd "$PBS_O_WORKDIR"
@@ -37,7 +37,7 @@ Passing the `-I` flag to `qsub` allows a compute node to be used interactively.
 
 For example, to request an interactive job on one of the Pascal nodes utilizing 1 GPU and 16 of the 36 available Broadwell CPU cores, use the following command:
 
-    qsub -I -q pascalq -l nodes=1:ncpus=16:ngpus=1
+    qsub -I -q pascalq -l select=1:ncpus=16:ngpus=1
 
 # Specifying correct resources
 
@@ -45,7 +45,7 @@ To avoid blocking resources which aren't being used by your job, it is important
 
 For example, this command declares that your job will run on a single node and will use one of the two available GPUs. The omission of the `ncpus` attribute causes it to default to `1`, meaning other jobs can enter the system to use any of the remaining 35 Broadwell CPU cores and the unused GPU.
 
-    qsub -I -q pascalq -l nodes=1:ngpus=1
+    qsub -I -q pascalq -l select=1:ngpus=1
 
 If you request `ngpus=2`, then any subsequently submitted job requesting a GPU will not run on the same node until a node is freed. Similarly setting `ncpus=36` will block any jobs requiring a CPU from running; Remember, 18 of the 36 cores are Hyperthreads.
 
