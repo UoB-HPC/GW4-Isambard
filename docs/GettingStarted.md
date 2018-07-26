@@ -1,6 +1,8 @@
 # Logging in to Isambard
 
-You need to place the following into ~/.ssh/config in order to traverse the bastion hosts transparently and to enable SCP usage:
+This is the preferred method.
+
+You must place the following into ~/.ssh/config in order to traverse the bastion hosts transparently and enable SCP usage:
 
 <pre>
 Host isambard.gw4.ac.uk
@@ -15,6 +17,14 @@ Host login-02.isambard.gw4.ac.uk
   Hostname login-02
   User XX-USERNAME
   ProxyCommand ssh isambard.gw4.ac.uk 'nc %h %p'
+</pre>
+
+Use the <code>login-xx.isambard.gw4.ac.uk</code> hosts when accessing the system.
+
+If you encounter password prompts when traversing the system then you can add the following into each of the above stanzas:
+
+<pre>
+ForwardAgent yes
 </pre>
 
 ## Logging onto the Bastion node
